@@ -14,8 +14,11 @@ public class MinAndMax1 {
 			arr[i] = sc.nextInt();
 		}
 		
+		printMinAndMax(arr, n);
+	}
+
+	public static void printMinAndMax(int[] arr, int n) {
 		Arrays.sort(arr);
-		
 		System.out.println("Min : " + arr[0] + " and Max : " + arr[n - 1]);
 	}
 }

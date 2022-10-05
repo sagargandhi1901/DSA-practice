@@ -12,7 +12,11 @@ public class MinAndMax2 {
 		for (int i = 0; i < n; i++) {
 			arr[i] = sc.nextInt();
 		}
-
+		
+		printMinAndMax(arr, n);
+	}
+	
+	public static void printMinAndMax(int[] arr, int n) {
 		int min = arr[0];
 		int max = arr[0];
 
